@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.1 (2025-04-08)
+
+### Bug Fixes
+
+- **core**: Change parameter type of collect and evaluate methods from dict to str
+  ([`94be3e8`](https://github.com/shawnoster/uvws/commit/94be3e8a654521112d61b0f67ab10bc1d4a87943))
+
+
 ## v0.2.0 (2025-04-08)
 
 ### Features
