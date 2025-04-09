@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.3 (2025-04-08)
+
+### Bug Fixes
+
+- **core**: Change parameter type of collect method from str to dict
+  ([`db6d88f`](https://github.com/shawnoster/uvws/commit/db6d88f8cc4be0afc6ff2b98187173dd8c236537))
+
+
 ## v0.2.2 (2025-04-08)
 
 ### Bug Fixes
