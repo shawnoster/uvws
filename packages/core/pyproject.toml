@@ -7,7 +7,9 @@ authors = [
     { name = "Shawn Oster", email = "shawn.oster@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "rich>=13.9.4",
+]
 
 [project.scripts]
 core = "core:main"
