@@ -3,7 +3,7 @@ from abc import ABC, abstractmethod
 class PluginBase(ABC):
     """
     Base class for plugins. All plugins must inherit from this class
-    and implement the `collect` method.
+    and implement the `collect` and `evaluate` methods.
     """
 
     @abstractmethod
@@ -16,5 +16,18 @@ class PluginBase(ABC):
 
         Returns:
             Dict: Processed data.
+        """
+        pass
+
+    @abstractmethod
+    def evaluate(self, data: dict) -> dict:
+        """
+        Evaluate the input dictionary and return a modified dictionary.
+
+        Args:
+            data (Dict): Input data to be evaluated.
+
+        Returns:
+            Dict: Evaluated data.
         """
         pass
