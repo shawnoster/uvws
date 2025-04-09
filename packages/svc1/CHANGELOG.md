@@ -26,6 +26,12 @@
 - **svc1**: Add missing key check for input data in collect method
   ([`1c07748`](https://github.com/shawnoster/uvws/commit/1c07748d652271a2caefea088126c95019bb0bce))
 
+- **svc1**: Improve error message for missing key in input data
+  ([`a41803c`](https://github.com/shawnoster/uvws/commit/a41803cd01ffeffdf0254dec5d162206faeff345))
+
+- **svc1**: Update semantic release configuration and version to 0.3.1
+  ([`4a8f894`](https://github.com/shawnoster/uvws/commit/4a8f894edf3f8566da7abb42cbf05a7a7eeef168))
+
 - **svc1**: Update version to 0.1.0 in __init__.py
   ([`0590a5b`](https://github.com/shawnoster/uvws/commit/0590a5b79d5e6ab7e71375c9844274029b87ea0b))
 
