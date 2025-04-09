@@ -17,6 +17,8 @@ class Svc1Plugin(PluginBase):
         Returns:
             Dict: Processed data.
         """
+        if "svc1" not in data:
+            raise "svc1 key is missing in the input data"
         return "svc1"
 
     def evaluate(self, data: dict) -> dict:
