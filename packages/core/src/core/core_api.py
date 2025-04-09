@@ -7,7 +7,7 @@ class PluginBase(ABC):
     """
 
     @abstractmethod
-    def collect(self, data: dict) -> dict:
+    def collect(self, data: str) -> dict:
         """
         Process the input dictionary and return a modified dictionary.
 
@@ -20,7 +20,7 @@ class PluginBase(ABC):
         pass
 
     @abstractmethod
-    def evaluate(self, data: dict) -> dict:
+    def evaluate(self, data: str) -> dict:
         """
         Evaluate the input dictionary and return a modified dictionary.
 
