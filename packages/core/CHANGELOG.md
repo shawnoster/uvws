@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.3.1 (2025-04-08)
+
+### Bug Fixes
+
+- **svc1**: Add missing key check for input data in collect method
+  ([`1c07748`](https://github.com/shawnoster/uvws/commit/1c07748d652271a2caefea088126c95019bb0bce))
+
+
 ## v0.3.0 (2025-04-08)
 
 ### Bug Fixes
