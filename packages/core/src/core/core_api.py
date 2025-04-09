@@ -20,7 +20,7 @@ class PluginBase(ABC):
         pass
 
     @abstractmethod
-    def evaluate(self, data: str) -> dict:
+    def evaluate(self, data: dict) -> dict:
         """
         Evaluate the input dictionary and return a modified dictionary.
 
