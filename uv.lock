@@ -97,8 +97,14 @@ wheels = [
 
 [[package]]
 name = "core"
-version = "0.1.0"
+version = "0.2.3"
 source = { editable = "packages/core" }
+dependencies = [
+    { name = "rich" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "rich", specifier = ">=13.9.4" }]
 
 [[package]]
 name = "deprecated"
