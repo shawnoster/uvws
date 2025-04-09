@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.2.2 (2025-04-08)
+
+### Bug Fixes
+
+- **core**: Change return type of collect method from dict to str
+  ([`529442f`](https://github.com/shawnoster/uvws/commit/529442f597575bd216316bf1f2c2cbe6239e8570))
+
+
 ## v0.2.1 (2025-04-08)
 
 ### Bug Fixes
