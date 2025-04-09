@@ -7,7 +7,7 @@ class PluginBase(ABC):
     """
 
     @abstractmethod
-    def collect(self, data: str) -> str:
+    def collect(self, data: dict) -> str:
         """
         Process the input dictionary and return a modified dictionary.
 
