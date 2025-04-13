@@ -35,7 +35,10 @@ dist_glob_patterns = ["dist/*.whl", "dist/*.tar.gz"]
 
 # Only consider commits that affect this package's path (monorepo filtering)
 [tool.semantic_release.commit_parser_options]
-path_filters = ["plugins/plugin-one/*"]
+path_filters = [
+    "plugins/plugin-one/*",
+    "plugins/plugin-one/**"
+]
 
 # Branch settings: define which branches do releases
 [semantic_release.branches.main]
