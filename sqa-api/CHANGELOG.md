@@ -1,6 +1,28 @@
 # CHANGELOG
 
 
+## v0.1.4 (2025-04-13)
+
+### Bug Fixes
+
+- Update project metadata in pyproject.toml
+  ([`d7b7e15`](https://github.com/shawnoster/uvws/commit/d7b7e15e1462c87199a42d1c44577ee906e82c89))
+
+- Update version to 2.1.1 for plugin-one and sqa
+  ([`4ca715f`](https://github.com/shawnoster/uvws/commit/4ca715f1f5913c19733f7dce1854c175472fabfe))
+
+### Chores
+
+- Standardize commit message format and add dist glob patterns for plugin-one, sqa-api, and sqa-cli
+  ([`9a85a5e`](https://github.com/shawnoster/uvws/commit/9a85a5ef9e27fe4dedac7667c104d6dab0c3687f))
+
+- **plugin_one-release**: Release plugin_one@0.1.1 [skip ci]
+  ([`26d295d`](https://github.com/shawnoster/uvws/commit/26d295df50a403e2a802cebd85646c7aff87f54c))
+
+- **sqa-cli-release**: Release sqa-cli@0.1.1 [skip ci]
+  ([`094c755`](https://github.com/shawnoster/uvws/commit/094c755122ae4e875a17efb73a9abe3d8600c3c8))
+
+
 ## v0.1.3 (2025-04-13)
 
 ### Chores
