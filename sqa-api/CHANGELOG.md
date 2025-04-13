@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v0.1.1 (2025-04-13)
+
+### Bug Fixes
+
+- Update tag format for plugin-one and add semantic release configuration for sqa-cli
+  ([`e823ed4`](https://github.com/shawnoster/uvws/commit/e823ed4a1d01470cac19a08bc96087ca009777c7))
+
+### Chores
+
+- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
+  ([`c6a3caf`](https://github.com/shawnoster/uvws/commit/c6a3caf0dd5a2299b91d2c74c74d72b597f70c56))
+
+
 ## v0.1.0 (2025-04-13)
 
 ### Bug Fixes
