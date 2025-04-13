@@ -14,8 +14,7 @@ dependencies = []
 dev = []
 
 [tool.semantic_release]
-# Assumes uv is already installed in the environment
-build_command = "uv build"
+build_command = "pip install uv && uv build"
 
 # Git tag format for this package (ensures independent tags)
 tag_format = "sqa-api-v{version}"
