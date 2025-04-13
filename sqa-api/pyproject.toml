@@ -32,3 +32,11 @@ path_filters = ["sqa-api/*"]
 # Branch settings: define which branches do releases
 [semantic_release.branches.main]
 match = "main"
+
+[tool.semantic_release.changelog]
+changelog_sections = [
+  "feat",
+  "fix",
+  "perf",
+  "refactor"
+]
