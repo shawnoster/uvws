@@ -7,7 +7,6 @@ packages = ["sqa-cli"]
 
 [project]
 name = "sqa"
-version = "2.0.2"
 requires-python = ">=3.12"
 authors = [
     { name = "Shawn Oster", email = "shawn.oster@gmail.com" }
