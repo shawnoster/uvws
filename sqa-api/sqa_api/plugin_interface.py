@@ -31,3 +31,16 @@ class PluginBase(ABC):
             Dict: Evaluated data.
         """
         pass
+
+    def _validate_input(self, data: dict) -> bool:
+        """
+        Validate the input data.
+
+        Args:
+            data (Dict): Input data to be validated.
+
+        Returns:
+            bool: True if valid, False otherwise.
+        """
+        # Placeholder for validation logic
+        return True
