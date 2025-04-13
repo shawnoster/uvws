@@ -1,6 +1,28 @@
 # CHANGELOG
 
 
+## v0.4.1 (2025-04-13)
+
+### Bug Fixes
+
+- **plugin-one**: Correct key check and return value in collect method
+  ([`a4eb52c`](https://github.com/shawnoster/uvws/commit/a4eb52ca840d79bd424132837a0b83ea1d8a4be1))
+
+### Chores
+
+- **plugin-one**: Refine path filters for semantic release commit parsing
+  ([`476ab56`](https://github.com/shawnoster/uvws/commit/476ab56bb3d10088537ed3114a3276ced983d771))
+
+- **release**: Remove uv installation step and update path filters for semantic release
+  ([`445cedb`](https://github.com/shawnoster/uvws/commit/445cedb6883a78782ec7c697e8910a0c1e012a2b))
+
+- **sqa-api-release**: Release sqa-api@0.4.1 [skip ci]
+  ([`eddb2f9`](https://github.com/shawnoster/uvws/commit/eddb2f9b0e9e35deca7e870b8b8b3ea166084f0b))
+
+- **sqa-cli-release**: Release sqa-cli@0.4.1 [skip ci]
+  ([`17fdec5`](https://github.com/shawnoster/uvws/commit/17fdec52bc0f782992d42c042a30b9754e49b120))
+
+
 ## v0.4.0 (2025-04-13)
 
 ### Chores
