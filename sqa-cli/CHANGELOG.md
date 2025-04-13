@@ -1,12 +1,26 @@
 # CHANGELOG
 
 
+## v0.4.5 (2025-04-13)
+
+### Chores
+
+- **plugin-one-release**: Release plugin_one@0.4.4 [skip ci]
+  ([`3f7db09`](https://github.com/shawnoster/uvws/commit/3f7db092bd43fe51c7fb9ddeff9c3b1c215f4f5e))
+
+- **sqa-api-release**: Release sqa-api@0.4.5 [skip ci]
+  ([`181e86f`](https://github.com/shawnoster/uvws/commit/181e86f725e56edb005e32c4750c945582660271))
+
+
 ## v0.4.4 (2025-04-13)
 
 ### Bug Fixes
 
 - **plugin-one**: Correct error message for missing 'serviceName' key
   ([`35d82bc`](https://github.com/shawnoster/uvws/commit/35d82bcbbf8d9ce959516477b36405be1bd45cb5))
+
+- **plugin-one**: Update dist_glob_patterns location and format in pyproject.toml
+  ([`871fcb9`](https://github.com/shawnoster/uvws/commit/871fcb9ae8ae7da77dfbe99ecd4ccf283f6a4ce7))
 
 - **plugin-one**: Update dist_glob_patterns to include full path for package distribution
   ([`62bf8d9`](https://github.com/shawnoster/uvws/commit/62bf8d9db7e3571cd3a778f715149867bc7fcd18))
@@ -15,6 +29,9 @@
 
 - **plugin-one-release**: Release plugin_one@0.4.3 [skip ci]
   ([`83b4182`](https://github.com/shawnoster/uvws/commit/83b4182a12029dd98b05379234c4dbbc3c63af53))
+
+- **release**: Add concurrency settings to release workflow
+  ([`2c3ef70`](https://github.com/shawnoster/uvws/commit/2c3ef7028afd83f7edcb2a089b6aee5c92ca8c3f))
 
 - **sqa-api, sqa-cli**: Add changelog sections for semantic release
   ([`c6d1600`](https://github.com/shawnoster/uvws/commit/c6d160023b9635a134f0955230a18a4898380b8c))
