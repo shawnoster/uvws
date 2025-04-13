@@ -1,9 +1,28 @@
 # CHANGELOG
 
 
-## v0.4.4 (2025-04-13)
+## v0.4.5 (2025-04-13)
 
 ### Chores
+
+- **sqa-api-release**: Release sqa-api@0.4.5 [skip ci]
+  ([`181e86f`](https://github.com/shawnoster/uvws/commit/181e86f725e56edb005e32c4750c945582660271))
+
+- **sqa-cli-release**: Release sqa-cli@0.4.5 [skip ci]
+  ([`e800cf6`](https://github.com/shawnoster/uvws/commit/e800cf6e0a580810bb1144e3d2d25219bd715531))
+
+
+## v0.4.4 (2025-04-13)
+
+### Bug Fixes
+
+- **plugin-one**: Update dist_glob_patterns location and format in pyproject.toml
+  ([`871fcb9`](https://github.com/shawnoster/uvws/commit/871fcb9ae8ae7da77dfbe99ecd4ccf283f6a4ce7))
+
+### Chores
+
+- **release**: Add concurrency settings to release workflow
+  ([`2c3ef70`](https://github.com/shawnoster/uvws/commit/2c3ef7028afd83f7edcb2a089b6aee5c92ca8c3f))
 
 - **sqa-api-release**: Release sqa-api@0.4.4 [skip ci]
   ([`777adf0`](https://github.com/shawnoster/uvws/commit/777adf0e42795d448589bc8fa28a5c97510efe64))
