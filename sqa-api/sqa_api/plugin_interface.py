@@ -44,3 +44,16 @@ class PluginBase(ABC):
         """
         # Placeholder for validation logic
         return True
+    
+    def _validate_credentials(self, credentials: dict) -> bool:
+        """
+        Validate the credentials.
+
+        Args:
+            credentials (Dict): Credentials to be validated.
+
+        Returns:
+            bool: True if valid, False otherwise.
+        """
+        # Placeholder for validation logic
+        return True
