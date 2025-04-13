@@ -20,7 +20,7 @@ sqa-api = { workspace = true }
 
 [tool.semantic_release]
 # Command to build the package (using uv for consistency)
-build_command = "pip install uv && uv build -o dist"
+build_command = "pip install uv && uv build -v -out-dir ./dist"
 
 # Git tag format for this package (ensures independent tags)
 tag_format = "plugin-one-v{version}"
@@ -41,3 +41,11 @@ path_filters = ["plugins/plugin-one/plugin_one/**"]
 # Branch settings: define which branches do releases
 [semantic_release.branches.main]
 match = "main"
+
+[tool.semantic_release.changelog]
+changelog_sections = [
+  "feat",
+  "fix",
+  "perf",
+  "refactor"
+]
