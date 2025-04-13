@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v0.1.1 (2025-04-13)
+
+### Chores
+
+- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
+  ([`c41c87c`](https://github.com/shawnoster/uvws/commit/c41c87c57723f771b663ae832594efb6cae0275c))
+
+- **sqa-api-release**: Release sqa-api@0.1.3 [skip ci]
+  ([`80c7060`](https://github.com/shawnoster/uvws/commit/80c7060c6e0761733411989b457b0910e13e4f6e))
+
+
 ## v0.1.0 (2025-04-13)
 
 ### Bug Fixes
@@ -10,6 +21,9 @@
 
 - Update tag format for plugin-one and add semantic release configuration for sqa-cli
   ([`e823ed4`](https://github.com/shawnoster/uvws/commit/e823ed4a1d01470cac19a08bc96087ca009777c7))
+
+- Update version numbers for plugin-one and sqa-cli to 2.0.4 and 0.3.1 respectively
+  ([`b73b4e1`](https://github.com/shawnoster/uvws/commit/b73b4e1f3551075769e6d1090a6302a726ae8743))
 
 - **core**: Add dependencies for the project
   ([`385f259`](https://github.com/shawnoster/uvws/commit/385f259d8d5da747bc112b96d2847ef7e6351d7e))
@@ -42,6 +56,9 @@
   ([`0590a5b`](https://github.com/shawnoster/uvws/commit/0590a5b79d5e6ab7e71375c9844274029b87ea0b))
 
 ### Chores
+
+- Add cSpell configuration for custom words in settings.json
+  ([`aed54e5`](https://github.com/shawnoster/uvws/commit/aed54e58d6b364605d7b7397367e339447f67fd1))
 
 - **core-release**: Release `core@0.0.0` [skip ci]
   ([`48c6a55`](https://github.com/shawnoster/uvws/commit/48c6a55f429ac50f101ea34264024e656ddf3867))
