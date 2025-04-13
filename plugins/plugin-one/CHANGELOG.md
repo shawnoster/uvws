@@ -5,6 +5,12 @@
 
 ### Bug Fixes
 
+- Correct path in version_variables for semantic release configuration
+  ([`4380f8e`](https://github.com/shawnoster/uvws/commit/4380f8e45b938dba2d9de22e9d05927a9f0a18ff))
+
+- Update tag format for plugin-one and add semantic release configuration for sqa-cli
+  ([`e823ed4`](https://github.com/shawnoster/uvws/commit/e823ed4a1d01470cac19a08bc96087ca009777c7))
+
 - **core**: Add dependencies for the project
   ([`385f259`](https://github.com/shawnoster/uvws/commit/385f259d8d5da747bc112b96d2847ef7e6351d7e))
 
@@ -63,6 +69,15 @@
 
 - **sqa-api-release**: Release sqa-api@0.1.0 [skip ci]
   ([`71e4645`](https://github.com/shawnoster/uvws/commit/71e4645036d85acf176a0333572636efd79355bc))
+
+- **sqa-api-release**: Release sqa-api@0.1.1 [skip ci]
+  ([`f1f2576`](https://github.com/shawnoster/uvws/commit/f1f2576d4a81221cf064053f2422d86b88370fc9))
+
+- **sqa-api-release**: Release sqa-api@0.1.2 [skip ci]
+  ([`ea6b165`](https://github.com/shawnoster/uvws/commit/ea6b165a4fa0aa01e16cafc8d3529dd7e45012b3))
+
+- **sqa-cli-release**: Release sqa-cli@0.1.0 [skip ci]
+  ([`c553cb5`](https://github.com/shawnoster/uvws/commit/c553cb560ec04aa86142799fd201841266ca445b))
 
 - **svc1-release**: Release `svc1@0.1.0` [skip ci]
   ([`5a6ea02`](https://github.com/shawnoster/uvws/commit/5a6ea028b9698e22d39178d13bfadf1065f49501))
