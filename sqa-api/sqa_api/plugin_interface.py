@@ -1,5 +1,13 @@
 from abc import ABC, abstractmethod
 
+
+class PluginException(Exception):
+    """
+    Custom exception class for plugin errors.
+    """
+    pass
+
+
 class PluginBase(ABC):
     """
     Base class for plugins. All plugins must inherit from this class
