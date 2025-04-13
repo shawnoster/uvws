@@ -1,6 +1,31 @@
 # CHANGELOG
 
 
+## v0.3.0 (2025-04-13)
+
+### Chores
+
+- Add step to install uv in release workflow
+  ([`6bc4428`](https://github.com/shawnoster/uvws/commit/6bc442882349d1e3beb5481c28e49dbbdfdb8e2b))
+
+- Update build command in pyproject.toml to assume uv is pre-installed
+  ([`2feb5b9`](https://github.com/shawnoster/uvws/commit/2feb5b90d34e84b1b3b3cd7195b378e993f9cda1))
+
+- **plugin-one-release**: Release plugin_one@0.2.0 [skip ci]
+  ([`7359344`](https://github.com/shawnoster/uvws/commit/7359344746198761f8d08471154d0bd0aad5aa7d))
+
+- **sqa-api**: Update build command to install uv before building
+  ([`915e392`](https://github.com/shawnoster/uvws/commit/915e3920203b7d871e7c1b814d865efdd1a2f7a6))
+
+- **sqa-api-release**: Release sqa-api@0.3.0 [skip ci]
+  ([`cfb5e5e`](https://github.com/shawnoster/uvws/commit/cfb5e5e460f0fe25ce25b6238d56eb7bc1fdc26b))
+
+### Features
+
+- **sqa-api**: Add custom exception class for plugin errors
+  ([`bc0a9a1`](https://github.com/shawnoster/uvws/commit/bc0a9a1b4fcf8d7e59d9d179548755d046cdb0d9))
+
+
 ## v0.2.0 (2025-04-13)
 
 ### Chores
