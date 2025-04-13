@@ -1,6 +1,17 @@
 # CHANGELOG
 
 
+## v0.4.0 (2025-04-13)
+
+### Chores
+
+- **plugin-one-release**: Release plugin_one@0.3.0 [skip ci]
+  ([`165fd26`](https://github.com/shawnoster/uvws/commit/165fd26a7ed390d96b3e325ba671a36cef0f9fa8))
+
+- **sqa-cli-release**: Release sqa-cli@0.3.0 [skip ci]
+  ([`da7ac86`](https://github.com/shawnoster/uvws/commit/da7ac8614762aa8000e8d587876918ac5dd922b5))
+
+
 ## v0.3.0 (2025-04-13)
 
 ### Chores
@@ -21,6 +32,9 @@
   ([`a29a1a4`](https://github.com/shawnoster/uvws/commit/a29a1a4d6f4724b7249b87b57e09bf9e1271ec3d))
 
 ### Features
+
+- **plugin-interface**: Add PluginInvalidInput exception for invalid input data
+  ([`cac573a`](https://github.com/shawnoster/uvws/commit/cac573a6d17681b2cbb37ba48dd106c1ee97cd30))
 
 - **sqa-api**: Add custom exception class for plugin errors
   ([`bc0a9a1`](https://github.com/shawnoster/uvws/commit/bc0a9a1b4fcf8d7e59d9d179548755d046cdb0d9))
