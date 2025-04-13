@@ -16,9 +16,9 @@ class PluginOnePlugin(PluginBase):
         Returns:
             Dict: Processed data.
         """
-        if "svc1" not in data:
+        if "serviceName" not in data:
             raise "service one key is missing in the input data"
-        return "svc1"
+        return "serviceName"
 
     def evaluate(self, data: dict) -> dict:
         """
