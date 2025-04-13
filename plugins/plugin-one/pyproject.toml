@@ -23,7 +23,7 @@ sqa-api = { workspace = true }
 build_command = "pip install uv && uv build"
 
 # Git tag format for this package (ensures independent tags)
-tag_format = "plugin_one-v{version}"
+tag_format = "plugin-one-v{version}"
 
 # Locations of the version string to update
 version_toml = ["pyproject.toml:project.version"]
