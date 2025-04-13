@@ -32,18 +32,20 @@ version_variables = ["plugin_one/__init__.py:__version__"]
 # Customize the commit message that PSR uses when it commits the bump
 commit_parser = "conventional"
 commit_message = "chore(plugin-one-release): release plugin_one@{version} [skip ci]"
-dist_glob_patterns = [
-    "plugins/plugin-one/dist/*.whl",
-    "plugins/plugin-one/dist/*.tar.gz"
-]
 
 # Only consider commits that affect this package's path (monorepo filtering)
 [tool.semantic_release.commit_parser_options]
 path_filters = ["plugins/plugin-one/plugin_one/**"]
 
 # Branch settings: define which branches do releases
-[semantic_release.branches.main]
+[tool.semantic_release.branches.main]
 match = "main"
+
+[tool.semantic_release.publish]
+dist_glob_patterns = [
+    "dist/*.whl",
+    "dist/*.tar.gz"
+]
 
 [tool.semantic_release.changelog]
 changelog_sections = [
