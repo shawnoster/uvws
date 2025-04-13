@@ -1,6 +1,22 @@
 # CHANGELOG
 
 
+## v0.4.6 (2025-04-13)
+
+### Bug Fixes
+
+- **sqa-api**: Update version to 2.0.1 in pyproject.toml and __init__.py
+  ([`8b4be51`](https://github.com/shawnoster/uvws/commit/8b4be5128bc7676b09916ad3697dd0f95218d9d6))
+
+### Chores
+
+- **plugin-one-release**: Release plugin_one@0.4.5 [skip ci]
+  ([`bdae7ea`](https://github.com/shawnoster/uvws/commit/bdae7ea06dad28e150afd38d71ea2c23638a00d5))
+
+- **sqa-api-release**: Release sqa-api@0.4.6 [skip ci]
+  ([`7a99584`](https://github.com/shawnoster/uvws/commit/7a99584a3e916033fdd6fef01f1daad2ed9e8741))
+
+
 ## v0.4.5 (2025-04-13)
 
 ### Chores
