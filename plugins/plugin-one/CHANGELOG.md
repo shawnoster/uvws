@@ -1,9 +1,34 @@
 # CHANGELOG
 
 
+## v0.1.2 (2025-04-13)
+
+### Bug Fixes
+
+- Update project metadata in pyproject.toml
+  ([`d7b7e15`](https://github.com/shawnoster/uvws/commit/d7b7e15e1462c87199a42d1c44577ee906e82c89))
+
+- Update version to 2.1.1 for plugin-one and sqa
+  ([`4ca715f`](https://github.com/shawnoster/uvws/commit/4ca715f1f5913c19733f7dce1854c175472fabfe))
+
+### Chores
+
+- Standardize commit message format and add dist glob patterns for plugin-one, sqa-api, and sqa-cli
+  ([`9a85a5e`](https://github.com/shawnoster/uvws/commit/9a85a5ef9e27fe4dedac7667c104d6dab0c3687f))
+
+- **sqa-api-release**: Release sqa-api@0.1.4 [skip ci]
+  ([`ecc66e2`](https://github.com/shawnoster/uvws/commit/ecc66e2191f0947105a54aaee0c1d4310cffbd85))
+
+- **sqa-cli-release**: Release sqa-cli@0.1.2 [skip ci]
+  ([`2a9d466`](https://github.com/shawnoster/uvws/commit/2a9d46642cd2b28a82eb497ed5460dae6f2aec17))
+
+
 ## v0.1.1 (2025-04-13)
 
 ### Chores
+
+- **plugin_one-release**: Release plugin_one@0.1.1 [skip ci]
+  ([`26d295d`](https://github.com/shawnoster/uvws/commit/26d295df50a403e2a802cebd85646c7aff87f54c))
 
 - **sqa-api-release**: Release sqa-api@0.1.3 [skip ci]
   ([`80c7060`](https://github.com/shawnoster/uvws/commit/80c7060c6e0761733411989b457b0910e13e4f6e))
@@ -83,6 +108,12 @@
 
 - **core-release**: Release `core@0.3.1` [skip ci]
   ([`2dac0c8`](https://github.com/shawnoster/uvws/commit/2dac0c80796a2a46b92c736219dd28354b1db759))
+
+- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
+  ([`c41c87c`](https://github.com/shawnoster/uvws/commit/c41c87c57723f771b663ae832594efb6cae0275c))
+
+- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
+  ([`c6a3caf`](https://github.com/shawnoster/uvws/commit/c6a3caf0dd5a2299b91d2c74c74d72b597f70c56))
 
 - **sqa-api-release**: Release sqa-api@0.1.0 [skip ci]
   ([`71e4645`](https://github.com/shawnoster/uvws/commit/71e4645036d85acf176a0333572636efd79355bc))
