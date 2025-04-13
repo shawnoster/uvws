@@ -28,7 +28,7 @@ tag_format = "sqa-cli-v{version}"
 
 # Locations of the version string to update
 version_toml = ["pyproject.toml:project.version"]
-version_variables = ["sqa-cli/__init__.py:__version__"]
+version_variables = ["sqa_cli/__init__.py:__version__"]
 
 # Customize the commit message that PSR uses when it commits the bump
 commit_message = """\
