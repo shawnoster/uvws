@@ -20,7 +20,7 @@ sqa-api = { workspace = true }
 
 [tool.semantic_release]
 # Command to build the package (using uv for consistency)
-build_command = "pip install uv && uv build"
+build_command = "pip install uv && uv build -o dist"
 
 # Git tag format for this package (ensures independent tags)
 tag_format = "plugin-one-v{version}"
@@ -30,6 +30,7 @@ version_toml = ["pyproject.toml:project.version"]
 version_variables = ["plugin_one/__init__.py:__version__"]
 
 # Customize the commit message that PSR uses when it commits the bump
+commit_parser = "conventional"
 commit_message = "chore(plugin-one-release): release plugin_one@{version} [skip ci]"
 dist_glob_patterns = ["dist/*.whl", "dist/*.tar.gz"]
 
