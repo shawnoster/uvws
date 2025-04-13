@@ -17,7 +17,7 @@ class PluginOnePlugin(PluginBase):
             Dict: Processed data.
         """
         if "serviceName" not in data:
-            raise ValueError("service one key is missing in the input data")
+            raise ValueError("'serviceName' key is missing in the input data")
 
         return "serviceName"
 
