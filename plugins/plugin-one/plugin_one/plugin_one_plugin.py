@@ -1,8 +1,7 @@
+from sqa_api.plugin_interface import PluginBase
 
-from core.core_api import PluginBase
 
-
-class Svc1Plugin(PluginBase):
+class PluginOnePlugin(PluginBase):
     """
     Plugin for svc1.
     """

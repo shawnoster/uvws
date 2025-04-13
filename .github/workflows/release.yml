@@ -1,0 +1,32 @@
+name: Release Packages
+on:
+  push:
+    branches: [ "main" ]
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write    # allow pushing tags and creating releases
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # fetch full history for accurate version calculations
+
+      - name: Release sqa-api
+        uses: python-semantic-release/python-semantic-release@v9
+        with:
+          directory: ./sqa-api
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release sqa-cli
+        uses: python-semantic-release/python-semantic-release@v9
+        with:
+          directory: ./sqa-cli
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Release plugin-one plugin
+        uses: python-semantic-release/python-semantic-release@v9
+        with:
+          directory: ./plugins/plugin-one
+          github_token: ${{ secrets.GITHUB_TOKEN }}

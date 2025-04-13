@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "sqa-cli"
+version = "0.1.0"
+description = "SQA CLI"
+readme = "README.md"
+authors = [
+    { name = "Shawn Oster", email = "shawn.oster@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = ["sqa-api"]
+
+[project.scripts]
+sqa = "sqa_cli:cli.main"
+
+[tool.uv.sources]
+sqa-api = { workspace = true }

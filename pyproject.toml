@@ -1,25 +1,18 @@
-[project]
-name = "uvws"
-version = "0.1.0"
-description = "Add your description here"
-readme = "README.md"
-authors = [
-    { name = "Shawn Oster", email = "shawn.oster@gmail.com" }
-]
-requires-python = ">=3.12"
-dependencies = []
-
-[project.scripts]
-uvws = "uvws:main"
-
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
 
-[tool.uv.workspace]
-members = ["packages/core", "packages/svc1"]
+[tool.hatch.build.targets.wheel]
+packages = ["sqa-cli"]
 
-[dependency-groups]
-dev = [
-    "python-semantic-release>=9.21.0",
+[project]
+name = "sqa"
+version = "2.0.2"
+requires-python = ">=3.12"
+authors = [
+    { name = "Shawn Oster", email = "shawn.oster@gmail.com" }
 ]
+
+[tool.uv.workspace]
+exclude = ["plugins/cookiecutter-sqa-plugin"]
+members = ["plugins/*", "sqa-api", "sqa-cli"]
