@@ -8,6 +8,14 @@ class PluginException(Exception):
     pass
 
 
+class PluginInvalidInput(PluginException):
+    """
+    Exception raised for invalid input data.
+    """
+    def __init__(self, message: str):
+        super().__init__(message)
+
+
 class PluginBase(ABC):
     """
     Base class for plugins. All plugins must inherit from this class
