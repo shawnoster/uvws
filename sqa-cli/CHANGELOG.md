@@ -1,12 +1,26 @@
 # CHANGELOG
 
 
+## v0.4.2 (2025-04-13)
+
+### Chores
+
+- **plugin-one-release**: Release plugin_one@0.4.1 [skip ci]
+  ([`f13e9c1`](https://github.com/shawnoster/uvws/commit/f13e9c183f1f570e38dcdca10bf9a7d8868563aa))
+
+- **sqa-api-release**: Release sqa-api@0.4.2 [skip ci]
+  ([`70058af`](https://github.com/shawnoster/uvws/commit/70058af248f90c5e3504de60f067defd054352b4))
+
+
 ## v0.4.1 (2025-04-13)
 
 ### Bug Fixes
 
 - **plugin-one**: Correct key check and return value in collect method
   ([`a4eb52c`](https://github.com/shawnoster/uvws/commit/a4eb52ca840d79bd424132837a0b83ea1d8a4be1))
+
+- **plugin-one**: Update build command to output to dist directory
+  ([`b5189f2`](https://github.com/shawnoster/uvws/commit/b5189f2327a7dee2c8eee11860930e088ed9f1e7))
 
 ### Chores
 
