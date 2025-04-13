@@ -1,7 +1,28 @@
 # CHANGELOG
 
 
+## v0.1.3 (2025-04-13)
+
+### Chores
+
+- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
+  ([`c41c87c`](https://github.com/shawnoster/uvws/commit/c41c87c57723f771b663ae832594efb6cae0275c))
+
+- **sqa-cli-release**: Release sqa-cli@0.1.0 [skip ci]
+  ([`c553cb5`](https://github.com/shawnoster/uvws/commit/c553cb560ec04aa86142799fd201841266ca445b))
+
+
 ## v0.1.2 (2025-04-13)
+
+### Bug Fixes
+
+- Update version numbers for plugin-one and sqa-cli to 2.0.4 and 0.3.1 respectively
+  ([`b73b4e1`](https://github.com/shawnoster/uvws/commit/b73b4e1f3551075769e6d1090a6302a726ae8743))
+
+### Chores
+
+- Add cSpell configuration for custom words in settings.json
+  ([`aed54e5`](https://github.com/shawnoster/uvws/commit/aed54e58d6b364605d7b7397367e339447f67fd1))
 
 
 ## v0.1.1 (2025-04-13)
