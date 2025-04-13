@@ -1,6 +1,28 @@
 # CHANGELOG
 
 
+## v0.4.4 (2025-04-13)
+
+### Bug Fixes
+
+- **plugin-one**: Correct error message for missing 'serviceName' key
+  ([`35d82bc`](https://github.com/shawnoster/uvws/commit/35d82bcbbf8d9ce959516477b36405be1bd45cb5))
+
+- **plugin-one**: Update dist_glob_patterns to include full path for package distribution
+  ([`62bf8d9`](https://github.com/shawnoster/uvws/commit/62bf8d9db7e3571cd3a778f715149867bc7fcd18))
+
+### Chores
+
+- **plugin-one-release**: Release plugin_one@0.4.3 [skip ci]
+  ([`83b4182`](https://github.com/shawnoster/uvws/commit/83b4182a12029dd98b05379234c4dbbc3c63af53))
+
+- **sqa-api, sqa-cli**: Add changelog sections for semantic release
+  ([`c6d1600`](https://github.com/shawnoster/uvws/commit/c6d160023b9635a134f0955230a18a4898380b8c))
+
+- **sqa-api-release**: Release sqa-api@0.4.4 [skip ci]
+  ([`777adf0`](https://github.com/shawnoster/uvws/commit/777adf0e42795d448589bc8fa28a5c97510efe64))
+
+
 ## v0.4.3 (2025-04-13)
 
 ### Bug Fixes
