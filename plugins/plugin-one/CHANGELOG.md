@@ -1,6 +1,28 @@
 # CHANGELOG
 
 
+## v0.4.3 (2025-04-13)
+
+### Bug Fixes
+
+- **plugin-one**: Raise ValueError for missing serviceName key in input data
+  ([`045a020`](https://github.com/shawnoster/uvws/commit/045a0206e09871d82c57cf54ae46ebdc612508da))
+
+### Chores
+
+- **plugin-one**: Update build command for consistency and add changelog sections
+  ([`01d228e`](https://github.com/shawnoster/uvws/commit/01d228e4d2e5f99c018208f07892c17cdb290c59))
+
+- **sqa-api, sqa-cli**: Add changelog sections for semantic release
+  ([`c6d1600`](https://github.com/shawnoster/uvws/commit/c6d160023b9635a134f0955230a18a4898380b8c))
+
+- **sqa-api-release**: Release sqa-api@0.4.3 [skip ci]
+  ([`e57e7d7`](https://github.com/shawnoster/uvws/commit/e57e7d785c58690eb0b5a5d14857515959b78f8e))
+
+- **sqa-cli-release**: Release sqa-cli@0.4.3 [skip ci]
+  ([`9238744`](https://github.com/shawnoster/uvws/commit/9238744b35b627a123ce1cc1884de5cc29a9f9b6))
+
+
 ## v0.4.2 (2025-04-13)
 
 ### Chores
