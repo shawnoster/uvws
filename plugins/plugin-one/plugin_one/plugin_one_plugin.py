@@ -17,7 +17,8 @@ class PluginOnePlugin(PluginBase):
             Dict: Processed data.
         """
         if "serviceName" not in data:
-            raise "service one key is missing in the input data"
+            raise ValueError("service one key is missing in the input data")
+
         return "serviceName"
 
     def evaluate(self, data: dict) -> dict:
