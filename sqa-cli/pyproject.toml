@@ -32,4 +32,4 @@ version_variables = ["sqa_cli/__init__.py:__version__"]
 match = "main"
 
 [tool.semantic_release.publish]
-dist_glob_patterns = ["../dist/sqa_cli*"]
+dist_glob_patterns = ["dist/sqa_cli*.*"]
