@@ -1,4 +1,4 @@
-from sqa_api.plugin_interface import PluginBase, PluginInvalidInput
+from sqa_api.plugin_interface import PluginBase, PluginInvalidCredentials, PluginInvalidInput
 
 
 class PluginOnePlugin(PluginBase):
@@ -31,4 +31,7 @@ class PluginOnePlugin(PluginBase):
         Returns:
             Dict: Evaluated data.
         """
+        if "serviceName" not in data:
+            raise PluginInvalidCredentials("Missing required field: serviceName")
+                
         return {"serviceName": "test-four"}
