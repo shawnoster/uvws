@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.9.1 (2025-04-14)
+
+### Bug Fixes
+
+- **sqa-cli**: Revert version to 0.8.0 and update build command
+  ([`f6a3d91`](https://github.com/shawnoster/uvws/commit/f6a3d91f4e4ba1cc5639e53a2e755047670d9532))
+
+
 ## v0.9.0 (2025-04-14)
 
 ### Features
