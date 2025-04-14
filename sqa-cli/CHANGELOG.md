@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v0.5.0 (2025-04-14)
+
+### Features
+
+- **parser**: Implement ConventionalCommitMonorepoParser with path filtering options
+  ([`0134398`](https://github.com/shawnoster/uvws/commit/0134398dc2d12da4c08a14522ee62cd8b795a55b))
+
+### Refactoring
+
+- **sqa-api**: Update commit message and glob patterns for consistency
+  ([`d355a71`](https://github.com/shawnoster/uvws/commit/d355a71b5a65a860f9bcf014fcf6182fdafeca00))
+
+
 ## v0.4.8 (2025-04-14)
 
 ### Bug Fixes
