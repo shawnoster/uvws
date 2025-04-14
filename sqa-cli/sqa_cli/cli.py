@@ -27,3 +27,8 @@ def log_info(message: str) -> None:
     import logging
     logger = logging.getLogger(__name__)
     logger.info(message)
+
+def log_debug(message: str) -> None:
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.debug(message)
