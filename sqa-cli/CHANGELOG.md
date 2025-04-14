@@ -1,6 +1,19 @@
 # CHANGELOG
 
 
+## v0.6.0 (2025-04-14)
+
+### Bug Fixes
+
+- **pyproject**: Update dist_glob_patterns for semantic release
+  ([`76bc9fa`](https://github.com/shawnoster/uvws/commit/76bc9fa8db5dab7e85c0d4ed927f8274a2cea7ca))
+
+### Features
+
+- **sqa-cli**: Add setup_logging function for improved logging configuration
+  ([`88d6fb3`](https://github.com/shawnoster/uvws/commit/88d6fb30b18200f3dc59a52d363b62c3e626ecd6))
+
+
 ## v0.5.1 (2025-04-14)
 
 ### Bug Fixes
@@ -27,51 +40,6 @@
 
 ## v0.4.7 (2025-04-14)
 
-### Chores
-
-- Update exclude_commit_patterns to match 'chores*' for semantic release in sqa-api and sqa-cli
-  ([`7ea98ba`](https://github.com/shawnoster/uvws/commit/7ea98baebc59262e1af223faae5b6c0449ad8219))
-
-- **sqa-api, sqa-cli**: Add changelog sections for semantic release
-  ([`c6d1600`](https://github.com/shawnoster/uvws/commit/c6d160023b9635a134f0955230a18a4898380b8c))
-
-
-## v0.4.3 (2025-04-13)
-
-
-## v0.4.2 (2025-04-13)
-
-
-## v0.4.1 (2025-04-13)
-
-
-## v0.4.0 (2025-04-13)
-
-
-## v0.3.0 (2025-04-13)
-
-
-## v0.2.0 (2025-04-13)
-
-### Chores
-
-- Remove outdated changelogs for plugin-one, sqa-api, and sqa-cli
-  ([`cf6fcc1`](https://github.com/shawnoster/uvws/commit/cf6fcc19e6331c9ddba8582cf6d81c70e8086e62))
-
-
-## v0.1.2 (2025-04-13)
-
-### Chores
-
-- Standardize commit message format and add dist glob patterns for plugin-one, sqa-api, and sqa-cli
-  ([`9a85a5e`](https://github.com/shawnoster/uvws/commit/9a85a5ef9e27fe4dedac7667c104d6dab0c3687f))
-
-
-## v0.1.1 (2025-04-13)
-
-
-## v0.1.0 (2025-04-13)
-
 ### Bug Fixes
 
 - Correct path in version_variables for semantic release configuration
@@ -82,6 +50,20 @@
 
 - Update version numbers for plugin-one and sqa-cli to 2.0.4 and 0.3.1 respectively
   ([`b73b4e1`](https://github.com/shawnoster/uvws/commit/b73b4e1f3551075769e6d1090a6302a726ae8743))
+
+### Chores
+
+- Remove outdated changelogs for plugin-one, sqa-api, and sqa-cli
+  ([`cf6fcc1`](https://github.com/shawnoster/uvws/commit/cf6fcc19e6331c9ddba8582cf6d81c70e8086e62))
+
+- Standardize commit message format and add dist glob patterns for plugin-one, sqa-api, and sqa-cli
+  ([`9a85a5e`](https://github.com/shawnoster/uvws/commit/9a85a5ef9e27fe4dedac7667c104d6dab0c3687f))
+
+- Update exclude_commit_patterns to match 'chores*' for semantic release in sqa-api and sqa-cli
+  ([`7ea98ba`](https://github.com/shawnoster/uvws/commit/7ea98baebc59262e1af223faae5b6c0449ad8219))
+
+- **sqa-api, sqa-cli**: Add changelog sections for semantic release
+  ([`c6d1600`](https://github.com/shawnoster/uvws/commit/c6d160023b9635a134f0955230a18a4898380b8c))
 
 ### Refactoring
 
