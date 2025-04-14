@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.5.1 (2025-04-14)
+
+### Bug Fixes
+
+- **sqa-cli**: Revert version to 0.8.0 and update build command
+  ([`f6a3d91`](https://github.com/shawnoster/uvws/commit/f6a3d91f4e4ba1cc5639e53a2e755047670d9532))
+
+
 ## v0.5.0 (2025-04-14)
 
 ### Chores
@@ -24,46 +32,29 @@
 
 ## v0.4.7 (2025-04-14)
 
-### Chores
-
-- Update exclude_commit_patterns to match 'chores*' for semantic release in sqa-api and sqa-cli
-  ([`7ea98ba`](https://github.com/shawnoster/uvws/commit/7ea98baebc59262e1af223faae5b6c0449ad8219))
-
-
-## v0.4.6 (2025-04-13)
-
 ### Bug Fixes
 
 - **sqa-api**: Update version to 2.0.1 in pyproject.toml and __init__.py
   ([`8b4be51`](https://github.com/shawnoster/uvws/commit/8b4be5128bc7676b09916ad3697dd0f95218d9d6))
 
-
-## v0.4.5 (2025-04-13)
-
-
-## v0.4.4 (2025-04-13)
-
 ### Chores
+
+- Update exclude_commit_patterns to match 'chores*' for semantic release in sqa-api and sqa-cli
+  ([`7ea98ba`](https://github.com/shawnoster/uvws/commit/7ea98baebc59262e1af223faae5b6c0449ad8219))
 
 - **sqa-api, sqa-cli**: Add changelog sections for semantic release
   ([`c6d1600`](https://github.com/shawnoster/uvws/commit/c6d160023b9635a134f0955230a18a4898380b8c))
 
 
-## v0.4.3 (2025-04-13)
-
-
-## v0.4.2 (2025-04-13)
-
-
 ## v0.4.1 (2025-04-13)
 
-
-## v0.4.0 (2025-04-13)
-
-
-## v0.3.0 (2025-04-13)
-
 ### Chores
+
+- Remove outdated changelogs for plugin-one, sqa-api, and sqa-cli
+  ([`cf6fcc1`](https://github.com/shawnoster/uvws/commit/cf6fcc19e6331c9ddba8582cf6d81c70e8086e62))
+
+- Standardize commit message format and add dist glob patterns for plugin-one, sqa-api, and sqa-cli
+  ([`9a85a5e`](https://github.com/shawnoster/uvws/commit/9a85a5ef9e27fe4dedac7667c104d6dab0c3687f))
 
 - Update build command in pyproject.toml to assume uv is pre-installed
   ([`2feb5b9`](https://github.com/shawnoster/uvws/commit/2feb5b90d34e84b1b3b3cd7195b378e993f9cda1))
@@ -73,44 +64,14 @@
 
 ### Features
 
+- Add _validate_credentials method to PluginBase for credential validation
+  ([`3cfaf72`](https://github.com/shawnoster/uvws/commit/3cfaf72333d3b1b8ec8feb39b359de88b98818a0))
+
 - **plugin-interface**: Add PluginInvalidInput exception for invalid input data
   ([`cac573a`](https://github.com/shawnoster/uvws/commit/cac573a6d17681b2cbb37ba48dd106c1ee97cd30))
 
 - **sqa-api**: Add custom exception class for plugin errors
   ([`bc0a9a1`](https://github.com/shawnoster/uvws/commit/bc0a9a1b4fcf8d7e59d9d179548755d046cdb0d9))
-
-
-## v0.2.0 (2025-04-13)
-
-### Chores
-
-- Remove outdated changelogs for plugin-one, sqa-api, and sqa-cli
-  ([`cf6fcc1`](https://github.com/shawnoster/uvws/commit/cf6fcc19e6331c9ddba8582cf6d81c70e8086e62))
-
-### Features
-
-- Add _validate_credentials method to PluginBase for credential validation
-  ([`3cfaf72`](https://github.com/shawnoster/uvws/commit/3cfaf72333d3b1b8ec8feb39b359de88b98818a0))
-
-
-## v0.1.4 (2025-04-13)
-
-### Chores
-
-- Standardize commit message format and add dist glob patterns for plugin-one, sqa-api, and sqa-cli
-  ([`9a85a5e`](https://github.com/shawnoster/uvws/commit/9a85a5ef9e27fe4dedac7667c104d6dab0c3687f))
-
-
-## v0.1.3 (2025-04-13)
-
-
-## v0.1.2 (2025-04-13)
-
-
-## v0.1.1 (2025-04-13)
-
-
-## v0.1.0 (2025-04-13)
 
 ### Refactoring
 
