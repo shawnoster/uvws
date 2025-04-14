@@ -1,12 +1,18 @@
 # CHANGELOG
 
 
+## v0.6.1 (2025-04-14)
+
+
 ## v0.6.0 (2025-04-14)
 
 ### Bug Fixes
 
 - **pyproject**: Update dist_glob_patterns for semantic release
   ([`76bc9fa`](https://github.com/shawnoster/uvws/commit/76bc9fa8db5dab7e85c0d4ed927f8274a2cea7ca))
+
+- **release**: Update dist_glob_patterns for correct publishing path
+  ([`8ee5a63`](https://github.com/shawnoster/uvws/commit/8ee5a634fd7333d12a4d478549c562dd5ca3ed84))
 
 ### Features
 
