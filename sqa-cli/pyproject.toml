@@ -21,23 +21,12 @@ sqa-api = { workspace = true }
 
 [tool.semantic_release]
 build_command = "pip install uv && uv build"
+commit_message = "chore(sqa-cli-release): release sqa-cli@{version} [skip ci]"
+commit_parser = "../scripts/psr/custom_parser/monorepo_parser.py:ConventionalCommitMonorepoParser"
 tag_format = "sqa-cli-v{version}"
 version_toml = ["pyproject.toml:project.version"]
 version_variables = ["sqa_cli/__init__.py:__version__"]
-commit_message = "chore(sqa-cli-release): release sqa-cli@{version} [skip ci]"
-dist_glob_patterns = ["./dist/*.whl", "./dist/*.tar.gz"]
 
 # Branch settings: define which branches do releases
 [semantic_release.branches.main]
 match = "main"
-
-[tool.semantic_release.changelog]
-exclude_commit_patterns = [
-  "chores*"
-]
-changelog_sections = [
-  "feat",
-  "fix",
-  "perf",
-  "refactor"
-]
