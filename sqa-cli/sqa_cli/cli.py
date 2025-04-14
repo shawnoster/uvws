@@ -22,3 +22,8 @@ def log_warning(message: str) -> None:
     import logging
     logger = logging.getLogger(__name__)
     logger.warning(message)
+
+def log_info(message: str) -> None:
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.info(message)
