@@ -15,25 +15,19 @@ dev = []
 
 [tool.semantic_release]
 build_command = "pip install uv && uv build"
-
-# Git tag format for this package (ensures independent tags)
 tag_format = "sqa-api-v{version}"
-
-# Locations of the version string to update
 version_toml = ["pyproject.toml:project.version"]
 version_variables = ["sqa_api/__init__.py:__version__"]
 commit_message = "chore(sqa-api-release): release sqa-api@{version} [skip ci]"
 dist_glob_patterns = ["dist/*.whl", "dist/*.tar.gz"]
 
-# Only consider commits that affect this package's path (monorepo filtering)
-[tool.semantic_release.commit_parser_options]
-path_filters = ["sqa-api/*"]
-
-# Branch settings: define which branches do releases
 [semantic_release.branches.main]
 match = "main"
 
 [tool.semantic_release.changelog]
+exclude_commit_patterns = [
+  "chores*"
+]
 changelog_sections = [
   "feat",
   "fix",
