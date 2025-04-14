@@ -1,4 +1,4 @@
-from sqa_api.plugin_interface import PluginBase
+from sqa_api.plugin_interface import PluginBase, PluginInvalidInput
 
 
 class PluginOnePlugin(PluginBase):
@@ -17,7 +17,7 @@ class PluginOnePlugin(PluginBase):
             Dict: Processed data.
         """
         if "serviceName" not in data:
-            raise ValueError("'serviceName' key is missing in the input data")
+            raise PluginInvalidInput("Missing required field: serviceName")
 
         return "serviceName"
 
