@@ -15,5 +15,4 @@ authors = [
 ]
 
 [tool.uv.workspace]
-exclude = ["plugins/cookiecutter-sqa-plugin"]
 members = ["plugins/*", "sqa-api", "sqa-cli"]
