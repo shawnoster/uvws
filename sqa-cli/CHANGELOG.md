@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.9.0 (2025-04-14)
+
+### Features
+
+- **sqa-cli**: Add log_info function for enhanced logging capabilities
+  ([`2e787b8`](https://github.com/shawnoster/uvws/commit/2e787b8ca3cf5bd46aaf6d3f8516c23096fb1960))
+
+
 ## v0.8.0 (2025-04-14)
 
 ### Features
