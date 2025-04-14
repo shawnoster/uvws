@@ -1,7 +1,34 @@
 # CHANGELOG
 
 
+## v0.7.0 (2025-04-14)
+
+### Bug Fixes
+
+- **sqa-cli**: Correct build command syntax for uv installation
+  ([`18618c5`](https://github.com/shawnoster/uvws/commit/18618c59a065a97d549ccd06edf89a922b149f7c))
+
+- **sqa-cli**: Correct build command syntax for uv installation
+  ([`6651efc`](https://github.com/shawnoster/uvws/commit/6651efc82f9ec4b4c56646a48a5ffe455cd4ff4d))
+
+- **sqa-cli**: Update build command to ensure uv is installed before building
+  ([`15549f1`](https://github.com/shawnoster/uvws/commit/15549f1a368a6e465d2bdd1b420f7c7c16332f1b))
+
+- **sqa-cli**: Update build command to use pip for uv installation
+  ([`0d54a2c`](https://github.com/shawnoster/uvws/commit/0d54a2c74fab76ff890cf5e634890a3b401a3e5c))
+
+### Features
+
+- **sqa-cli**: Add log_error function for error logging
+  ([`d408329`](https://github.com/shawnoster/uvws/commit/d4083291d0637f5cc64d6081e097c8d22556a63d))
+
+
 ## v0.6.1 (2025-04-14)
+
+### Continuous Integration
+
+- **sqa-cli**: Update build command and dist glob patterns for consistency
+  ([`26ed22b`](https://github.com/shawnoster/uvws/commit/26ed22b2ba1da53bfc2c9bb16b01728ce994d447))
 
 
 ## v0.6.0 (2025-04-14)
