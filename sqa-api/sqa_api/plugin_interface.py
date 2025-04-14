@@ -16,6 +16,14 @@ class PluginInvalidInput(PluginException):
         super().__init__(message)
 
 
+class PluginInvalidCredentials(PluginException):
+    """
+    Exception raised for invalid credentials.
+    """
+    def __init__(self, message: str):
+        super().__init__(message)
+
+
 class PluginBase(ABC):
     """
     Base class for plugins. All plugins must inherit from this class
