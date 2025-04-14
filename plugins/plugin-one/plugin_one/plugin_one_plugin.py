@@ -31,4 +31,4 @@ class PluginOnePlugin(PluginBase):
         Returns:
             Dict: Evaluated data.
         """
-        return {"svc1": "svc1"}
+        return {"serviceName": "test"}
