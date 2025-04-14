@@ -15,4 +15,8 @@ authors = [
 ]
 
 [tool.uv.workspace]
-members = ["plugins/*", "sqa-api", "sqa-cli"]
+members = [
+    "plugins/*", 
+    "sqa-api", 
+    "sqa-cli"
+]
