@@ -31,7 +31,7 @@ class PluginOnePlugin(PluginBase):
         Returns:
             Dict: Evaluated data.
         """
-        if "serviceName" not in data:
-            raise PluginInvalidCredentials("Missing required field: serviceName")
+        if "apiToken" not in data:
+            raise PluginInvalidCredentials("Missing required field: apiToken")
                 
         return {"serviceName": "test-four"}
