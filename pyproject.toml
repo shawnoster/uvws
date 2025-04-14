@@ -7,7 +7,7 @@ packages = ["sqa-cli"]
 
 [project]
 name = "sqa"
-version = "0.1.1"
+version = "2.0.2"
 description = "SQA CLI and plugins"
 requires-python = ">=3.12"
 authors = [
