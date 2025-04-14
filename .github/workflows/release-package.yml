@@ -29,7 +29,7 @@ jobs:
       - name: Setup | Sync with upstream branch
         run: |
           git fetch origin ${{ github.ref_name }}
-          git reset --hard origin/${{ github.ref_name }}
+          git pull origin ${{ github.ref_name }} --rebase
 
       - name: Action | Semantic Version Release (${{ inputs.package }} package)
         id: release_package
