@@ -12,14 +12,9 @@ jobs:
       contents: write    # allow pushing tags and creating releases
 
     steps:
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
-        with:
-          version: "0.6.14"
-
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:          
+        with:
           fetch-depth: 0  # fetch full history for accurate version calculations
 
       - name: Release sqa-api
@@ -30,10 +25,17 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Release sqa-cli
-        uses: python-semantic-release/python-semantic-release@v9
+        id: release-sqa-cli
+        uses: python-semantic-release/python-semantic-release@v9.21.0
         with:
           root_options: "-vv"
           directory: ./sqa-cli
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Publish artifacts to GitHub Release
+        if: steps.release-sqa-cli.outputs.released == 'true'
+        uses: python-semantic-release/publish-action@v9.21.0
+        with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Release plugin-one plugin
