@@ -1,15 +1,32 @@
 # CHANGELOG
 
 
+## v0.4.8 (2025-04-14)
+
+### Bug Fixes
+
+- **plugin-one**: Update serviceName in evaluate method to 'test-four'
+  ([`1a3d2a8`](https://github.com/shawnoster/uvws/commit/1a3d2a8b7de6d4d261c5cd1835f6c3574564942a))
+
+
 ## v0.4.7 (2025-04-14)
 
 ### Bug Fixes
+
+- **plugin-one**: Correct error message for missing 'serviceName' key
+  ([`35d82bc`](https://github.com/shawnoster/uvws/commit/35d82bcbbf8d9ce959516477b36405be1bd45cb5))
 
 - **plugin-one**: Correct return value in evaluate method to match expected output
   ([`bb3c734`](https://github.com/shawnoster/uvws/commit/bb3c7342c0e69082ff35061a6181fc27415d4499))
 
 - **plugin-one**: Remove 'chore' from exclude_commit_patterns for semantic release
   ([`67f4cda`](https://github.com/shawnoster/uvws/commit/67f4cdae2a8a96763a4968d738ee7446ff2f3c45))
+
+- **plugin-one**: Update dist_glob_patterns location and format in pyproject.toml
+  ([`871fcb9`](https://github.com/shawnoster/uvws/commit/871fcb9ae8ae7da77dfbe99ecd4ccf283f6a4ce7))
+
+- **plugin-one**: Update dist_glob_patterns to include full path for package distribution
+  ([`62bf8d9`](https://github.com/shawnoster/uvws/commit/62bf8d9db7e3571cd3a778f715149867bc7fcd18))
 
 - **plugin-one**: Update evaluate method to return correct serviceName
   ([`c7c20eb`](https://github.com/shawnoster/uvws/commit/c7c20eb45fa19975c3b9ab717dbafc02ead85b73))
@@ -23,86 +40,8 @@
 - **pyproject**: Remove cookiecutter-sqa-plugin from workspace exclusions
   ([`747c9fd`](https://github.com/shawnoster/uvws/commit/747c9fd1203197d6200fc36d90390859906a68f1))
 
-### Chores
-
-- Format members list for better readability
-  ([`1970ebc`](https://github.com/shawnoster/uvws/commit/1970ebcc9190c6f84c6494c3c97022ecaf26cd89))
-
-- Update project version to 2.0.2
-  ([`8e4a2ee`](https://github.com/shawnoster/uvws/commit/8e4a2eedaca70dd3ecc4bc3062d55f19142c941e))
-
-- **plugin-one-release**: Release plugin_one@0.4.10 [skip ci]
-  ([`25de3a1`](https://github.com/shawnoster/uvws/commit/25de3a1f1451571434fcb7379efc67ac41fa80c3))
-
-- **plugin-one-release**: Release plugin_one@0.4.6 [skip ci]
-  ([`80b03e9`](https://github.com/shawnoster/uvws/commit/80b03e985f5b38b3180a38b51b0573ba1ec0645a))
-
-- **plugin-one-release**: Release plugin_one@0.4.7 [skip ci]
-  ([`e15dd47`](https://github.com/shawnoster/uvws/commit/e15dd47b52480367353fd8f2abeb5673cbb9786d))
-
-- **plugin-one-release**: Release plugin_one@0.4.8 [skip ci]
-  ([`2f9b1fa`](https://github.com/shawnoster/uvws/commit/2f9b1fadcc2e1221b4e22e1f616c84b170eb8373))
-
-- **plugin-one-release**: Release plugin_one@0.4.9 [skip ci]
-  ([`a684d40`](https://github.com/shawnoster/uvws/commit/a684d40589c5bf577ad75fd02088f86744bc7e5b))
-
-- **sqa-api-release**: Release sqa-api@0.4.7 [skip ci]
-  ([`71427c8`](https://github.com/shawnoster/uvws/commit/71427c8b6bf1e79d49551ed7fbe3afd5dfa2d5e5))
-
-
-## v0.4.6 (2025-04-13)
-
-### Bug Fixes
-
 - **sqa-api**: Update version to 2.0.1 in pyproject.toml and __init__.py
   ([`8b4be51`](https://github.com/shawnoster/uvws/commit/8b4be5128bc7676b09916ad3697dd0f95218d9d6))
-
-### Chores
-
-- **plugin-one-release**: Release plugin_one@0.4.5 [skip ci]
-  ([`bdae7ea`](https://github.com/shawnoster/uvws/commit/bdae7ea06dad28e150afd38d71ea2c23638a00d5))
-
-- **sqa-api-release**: Release sqa-api@0.4.6 [skip ci]
-  ([`7a99584`](https://github.com/shawnoster/uvws/commit/7a99584a3e916033fdd6fef01f1daad2ed9e8741))
-
-
-## v0.4.5 (2025-04-13)
-
-### Chores
-
-- **plugin-one-release**: Release plugin_one@0.4.4 [skip ci]
-  ([`3f7db09`](https://github.com/shawnoster/uvws/commit/3f7db092bd43fe51c7fb9ddeff9c3b1c215f4f5e))
-
-- **sqa-api-release**: Release sqa-api@0.4.5 [skip ci]
-  ([`181e86f`](https://github.com/shawnoster/uvws/commit/181e86f725e56edb005e32c4750c945582660271))
-
-
-## v0.4.4 (2025-04-13)
-
-### Bug Fixes
-
-- **plugin-one**: Correct error message for missing 'serviceName' key
-  ([`35d82bc`](https://github.com/shawnoster/uvws/commit/35d82bcbbf8d9ce959516477b36405be1bd45cb5))
-
-- **plugin-one**: Update dist_glob_patterns location and format in pyproject.toml
-  ([`871fcb9`](https://github.com/shawnoster/uvws/commit/871fcb9ae8ae7da77dfbe99ecd4ccf283f6a4ce7))
-
-- **plugin-one**: Update dist_glob_patterns to include full path for package distribution
-  ([`62bf8d9`](https://github.com/shawnoster/uvws/commit/62bf8d9db7e3571cd3a778f715149867bc7fcd18))
-
-### Chores
-
-- **plugin-one-release**: Release plugin_one@0.4.3 [skip ci]
-  ([`83b4182`](https://github.com/shawnoster/uvws/commit/83b4182a12029dd98b05379234c4dbbc3c63af53))
-
-- **release**: Add concurrency settings to release workflow
-  ([`2c3ef70`](https://github.com/shawnoster/uvws/commit/2c3ef7028afd83f7edcb2a089b6aee5c92ca8c3f))
-
-- **sqa-api, sqa-cli**: Add changelog sections for semantic release
-  ([`c6d1600`](https://github.com/shawnoster/uvws/commit/c6d160023b9635a134f0955230a18a4898380b8c))
-
-- **sqa-api-release**: Release sqa-api@0.4.4 [skip ci]
-  ([`777adf0`](https://github.com/shawnoster/uvws/commit/777adf0e42795d448589bc8fa28a5c97510efe64))
 
 
 ## v0.4.3 (2025-04-13)
@@ -112,27 +51,8 @@
 - **plugin-one**: Raise ValueError for missing serviceName key in input data
   ([`045a020`](https://github.com/shawnoster/uvws/commit/045a0206e09871d82c57cf54ae46ebdc612508da))
 
-### Chores
-
-- **plugin-one**: Update build command for consistency and add changelog sections
-  ([`01d228e`](https://github.com/shawnoster/uvws/commit/01d228e4d2e5f99c018208f07892c17cdb290c59))
-
-- **plugin-one-release**: Release plugin_one@0.4.2 [skip ci]
-  ([`d86ecf4`](https://github.com/shawnoster/uvws/commit/d86ecf4a78551cf8ef438ceb7a16e01e5d3b7cc5))
-
-- **sqa-api-release**: Release sqa-api@0.4.3 [skip ci]
-  ([`e57e7d7`](https://github.com/shawnoster/uvws/commit/e57e7d785c58690eb0b5a5d14857515959b78f8e))
-
 
 ## v0.4.2 (2025-04-13)
-
-### Chores
-
-- **plugin-one-release**: Release plugin_one@0.4.1 [skip ci]
-  ([`f13e9c1`](https://github.com/shawnoster/uvws/commit/f13e9c183f1f570e38dcdca10bf9a7d8868563aa))
-
-- **sqa-api-release**: Release sqa-api@0.4.2 [skip ci]
-  ([`70058af`](https://github.com/shawnoster/uvws/commit/70058af248f90c5e3504de60f067defd054352b4))
 
 
 ## v0.4.1 (2025-04-13)
@@ -145,50 +65,11 @@
 - **plugin-one**: Update build command to output to dist directory
   ([`b5189f2`](https://github.com/shawnoster/uvws/commit/b5189f2327a7dee2c8eee11860930e088ed9f1e7))
 
-### Chores
-
-- **plugin-one**: Refine path filters for semantic release commit parsing
-  ([`476ab56`](https://github.com/shawnoster/uvws/commit/476ab56bb3d10088537ed3114a3276ced983d771))
-
-- **plugin-one-release**: Release plugin_one@0.4.0 [skip ci]
-  ([`bf3d21b`](https://github.com/shawnoster/uvws/commit/bf3d21bfc32d4faa6eb288e308661b219b39aab8))
-
-- **release**: Remove uv installation step and update path filters for semantic release
-  ([`445cedb`](https://github.com/shawnoster/uvws/commit/445cedb6883a78782ec7c697e8910a0c1e012a2b))
-
-- **sqa-api-release**: Release sqa-api@0.4.1 [skip ci]
-  ([`eddb2f9`](https://github.com/shawnoster/uvws/commit/eddb2f9b0e9e35deca7e870b8b8b3ea166084f0b))
-
 
 ## v0.4.0 (2025-04-13)
 
-### Chores
-
-- **plugin-one-release**: Release plugin_one@0.3.0 [skip ci]
-  ([`165fd26`](https://github.com/shawnoster/uvws/commit/165fd26a7ed390d96b3e325ba671a36cef0f9fa8))
-
-- **sqa-api-release**: Release sqa-api@0.4.0 [skip ci]
-  ([`c301540`](https://github.com/shawnoster/uvws/commit/c3015403b49d514db13afc0feb150117388dd328))
-
 
 ## v0.3.0 (2025-04-13)
-
-### Chores
-
-- Add step to install uv in release workflow
-  ([`6bc4428`](https://github.com/shawnoster/uvws/commit/6bc442882349d1e3beb5481c28e49dbbdfdb8e2b))
-
-- Update build command in pyproject.toml to assume uv is pre-installed
-  ([`2feb5b9`](https://github.com/shawnoster/uvws/commit/2feb5b90d34e84b1b3b3cd7195b378e993f9cda1))
-
-- **plugin-one-release**: Release plugin_one@0.2.0 [skip ci]
-  ([`7359344`](https://github.com/shawnoster/uvws/commit/7359344746198761f8d08471154d0bd0aad5aa7d))
-
-- **sqa-api**: Update build command to install uv before building
-  ([`915e392`](https://github.com/shawnoster/uvws/commit/915e3920203b7d871e7c1b814d865efdd1a2f7a6))
-
-- **sqa-api-release**: Release sqa-api@0.3.0 [skip ci]
-  ([`cfb5e5e`](https://github.com/shawnoster/uvws/commit/cfb5e5e460f0fe25ce25b6238d56eb7bc1fdc26b))
 
 ### Features
 
@@ -200,17 +81,6 @@
 
 
 ## v0.2.0 (2025-04-13)
-
-### Chores
-
-- Remove outdated changelogs for plugin-one, sqa-api, and sqa-cli
-  ([`cf6fcc1`](https://github.com/shawnoster/uvws/commit/cf6fcc19e6331c9ddba8582cf6d81c70e8086e62))
-
-- **plugin-one-release**: Release plugin_one@0.1.2 [skip ci]
-  ([`c6e785e`](https://github.com/shawnoster/uvws/commit/c6e785e39db48486b621aeb353464b68edf1f5cb))
-
-- **sqa-api-release**: Release sqa-api@0.2.0 [skip ci]
-  ([`77659a9`](https://github.com/shawnoster/uvws/commit/77659a9b6c607285652c731b7837814932d5d493))
 
 ### Features
 
@@ -228,27 +98,8 @@
 - Update version to 2.1.1 for plugin-one and sqa
   ([`4ca715f`](https://github.com/shawnoster/uvws/commit/4ca715f1f5913c19733f7dce1854c175472fabfe))
 
-### Chores
-
-- Standardize commit message format and add dist glob patterns for plugin-one, sqa-api, and sqa-cli
-  ([`9a85a5e`](https://github.com/shawnoster/uvws/commit/9a85a5ef9e27fe4dedac7667c104d6dab0c3687f))
-
-- **plugin_one-release**: Release plugin_one@0.1.1 [skip ci]
-  ([`26d295d`](https://github.com/shawnoster/uvws/commit/26d295df50a403e2a802cebd85646c7aff87f54c))
-
-- **sqa-api-release**: Release sqa-api@0.1.4 [skip ci]
-  ([`ecc66e2`](https://github.com/shawnoster/uvws/commit/ecc66e2191f0947105a54aaee0c1d4310cffbd85))
-
 
 ## v0.1.1 (2025-04-13)
-
-### Chores
-
-- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
-  ([`c41c87c`](https://github.com/shawnoster/uvws/commit/c41c87c57723f771b663ae832594efb6cae0275c))
-
-- **sqa-api-release**: Release sqa-api@0.1.3 [skip ci]
-  ([`80c7060`](https://github.com/shawnoster/uvws/commit/80c7060c6e0761733411989b457b0910e13e4f6e))
 
 
 ## v0.1.0 (2025-04-13)
@@ -293,50 +144,6 @@
 
 - **svc1**: Update version to 0.1.0 in __init__.py
   ([`0590a5b`](https://github.com/shawnoster/uvws/commit/0590a5b79d5e6ab7e71375c9844274029b87ea0b))
-
-### Chores
-
-- Add cSpell configuration for custom words in settings.json
-  ([`aed54e5`](https://github.com/shawnoster/uvws/commit/aed54e58d6b364605d7b7397367e339447f67fd1))
-
-- **core-release**: Release `core@0.0.0` [skip ci]
-  ([`48c6a55`](https://github.com/shawnoster/uvws/commit/48c6a55f429ac50f101ea34264024e656ddf3867))
-
-- **core-release**: Release `core@0.1.0` [skip ci]
-  ([`de3215d`](https://github.com/shawnoster/uvws/commit/de3215d78f3ff31f308234c5b5b1f036dd62f27b))
-
-- **core-release**: Release `core@0.2.0` [skip ci]
-  ([`5fc3aeb`](https://github.com/shawnoster/uvws/commit/5fc3aeb663651c396ba5e4c1edcf39eeb53f54a7))
-
-- **core-release**: Release `core@0.2.1` [skip ci]
-  ([`2e217dd`](https://github.com/shawnoster/uvws/commit/2e217dd8b3e54b18cbefd0846a960f3740f0c323))
-
-- **core-release**: Release `core@0.2.2` [skip ci]
-  ([`08a29ba`](https://github.com/shawnoster/uvws/commit/08a29bae6732b8e11ef6730ce7047d87aba866f5))
-
-- **core-release**: Release `core@0.2.3` [skip ci]
-  ([`ae22bb8`](https://github.com/shawnoster/uvws/commit/ae22bb873b81d36f0b15de58ac149943ecdba1f1))
-
-- **core-release**: Release `core@0.3.0` [skip ci]
-  ([`4d8e382`](https://github.com/shawnoster/uvws/commit/4d8e382132e003c28546e0f341a042dade60d04f))
-
-- **core-release**: Release `core@0.3.1` [skip ci]
-  ([`2dac0c8`](https://github.com/shawnoster/uvws/commit/2dac0c80796a2a46b92c736219dd28354b1db759))
-
-- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
-  ([`c6a3caf`](https://github.com/shawnoster/uvws/commit/c6a3caf0dd5a2299b91d2c74c74d72b597f70c56))
-
-- **sqa-api-release**: Release sqa-api@0.1.0 [skip ci]
-  ([`71e4645`](https://github.com/shawnoster/uvws/commit/71e4645036d85acf176a0333572636efd79355bc))
-
-- **sqa-api-release**: Release sqa-api@0.1.1 [skip ci]
-  ([`f1f2576`](https://github.com/shawnoster/uvws/commit/f1f2576d4a81221cf064053f2422d86b88370fc9))
-
-- **sqa-api-release**: Release sqa-api@0.1.2 [skip ci]
-  ([`ea6b165`](https://github.com/shawnoster/uvws/commit/ea6b165a4fa0aa01e16cafc8d3529dd7e45012b3))
-
-- **svc1-release**: Release `svc1@0.1.0` [skip ci]
-  ([`5a6ea02`](https://github.com/shawnoster/uvws/commit/5a6ea028b9698e22d39178d13bfadf1065f49501))
 
 ### Features
 
