@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.4.12 (2025-04-14)
+
+### Bug Fixes
+
+- **plugin-one**: Update serviceName in evaluate method to 'test-four'
+  ([`1a3d2a8`](https://github.com/shawnoster/uvws/commit/1a3d2a8b7de6d4d261c5cd1835f6c3574564942a))
+
+
 ## v0.4.11 (2025-04-14)
 
 ### Bug Fixes
@@ -32,16 +40,11 @@
 
 ### Bug Fixes
 
-- **plugin-one**: Update evaluate method to return correct serviceName
-  ([`0118dd9`](https://github.com/shawnoster/uvws/commit/0118dd9584895f6dda7b93ed3fb0c5080fb4dd94))
-
-
-## v0.4.7 (2025-04-13)
-
-### Bug Fixes
-
 - **plugin-one**: Correct return value in evaluate method to match expected output
   ([`bb3c734`](https://github.com/shawnoster/uvws/commit/bb3c7342c0e69082ff35061a6181fc27415d4499))
+
+- **plugin-one**: Update evaluate method to return correct serviceName
+  ([`0118dd9`](https://github.com/shawnoster/uvws/commit/0118dd9584895f6dda7b93ed3fb0c5080fb4dd94))
 
 
 ## v0.4.6 (2025-04-13)
@@ -125,9 +128,6 @@
 
 
 ## v0.1.1 (2025-04-13)
-
-
-## v0.1.0 (2025-04-13)
 
 ### Bug Fixes
 
