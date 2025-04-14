@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.4.8 (2025-04-13)
+
+### Bug Fixes
+
+- **plugin-one**: Update evaluate method to return correct serviceName
+  ([`0118dd9`](https://github.com/shawnoster/uvws/commit/0118dd9584895f6dda7b93ed3fb0c5080fb4dd94))
+
+
 ## v0.4.7 (2025-04-13)
 
 ### Bug Fixes
