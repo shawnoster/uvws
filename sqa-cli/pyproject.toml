@@ -30,3 +30,6 @@ version_variables = ["sqa_cli/__init__.py:__version__"]
 # Branch settings: define which branches do releases
 [semantic_release.branches.main]
 match = "main"
+
+[tool.semantic_release.publish]
+dist_glob_patterns = ["../dist/sqa_cli*"]

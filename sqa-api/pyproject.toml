@@ -24,3 +24,6 @@ version_variables = ["sqa_api/__init__.py:__version__"]
 
 [semantic_release.branches.main]
 match = "main"
+
+[tool.semantic_release.publish]
+dist_glob_patterns = ["../dist/sqa_api*"]
