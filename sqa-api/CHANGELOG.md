@@ -1,6 +1,55 @@
 # CHANGELOG
 
 
+## v0.4.7 (2025-04-14)
+
+### Bug Fixes
+
+- **plugin-one**: Correct return value in evaluate method to match expected output
+  ([`bb3c734`](https://github.com/shawnoster/uvws/commit/bb3c7342c0e69082ff35061a6181fc27415d4499))
+
+- **plugin-one**: Remove 'chore' from exclude_commit_patterns for semantic release
+  ([`67f4cda`](https://github.com/shawnoster/uvws/commit/67f4cdae2a8a96763a4968d738ee7446ff2f3c45))
+
+- **plugin-one**: Update evaluate method to return correct serviceName
+  ([`c7c20eb`](https://github.com/shawnoster/uvws/commit/c7c20eb45fa19975c3b9ab717dbafc02ead85b73))
+
+- **plugin-one**: Update evaluate method to return correct serviceName
+  ([`0118dd9`](https://github.com/shawnoster/uvws/commit/0118dd9584895f6dda7b93ed3fb0c5080fb4dd94))
+
+- **plugin-one**: Update exclude_commit_patterns to match 'chores*' for semantic release
+  ([`92ff0a3`](https://github.com/shawnoster/uvws/commit/92ff0a3fd4185ca36ecb03fd1a9d592241d7b5cc))
+
+- **pyproject**: Remove cookiecutter-sqa-plugin from workspace exclusions
+  ([`747c9fd`](https://github.com/shawnoster/uvws/commit/747c9fd1203197d6200fc36d90390859906a68f1))
+
+### Chores
+
+- Format members list for better readability
+  ([`1970ebc`](https://github.com/shawnoster/uvws/commit/1970ebcc9190c6f84c6494c3c97022ecaf26cd89))
+
+- Update project version to 2.0.2
+  ([`8e4a2ee`](https://github.com/shawnoster/uvws/commit/8e4a2eedaca70dd3ecc4bc3062d55f19142c941e))
+
+- **plugin-one-release**: Release plugin_one@0.4.10 [skip ci]
+  ([`25de3a1`](https://github.com/shawnoster/uvws/commit/25de3a1f1451571434fcb7379efc67ac41fa80c3))
+
+- **plugin-one-release**: Release plugin_one@0.4.6 [skip ci]
+  ([`80b03e9`](https://github.com/shawnoster/uvws/commit/80b03e985f5b38b3180a38b51b0573ba1ec0645a))
+
+- **plugin-one-release**: Release plugin_one@0.4.7 [skip ci]
+  ([`e15dd47`](https://github.com/shawnoster/uvws/commit/e15dd47b52480367353fd8f2abeb5673cbb9786d))
+
+- **plugin-one-release**: Release plugin_one@0.4.8 [skip ci]
+  ([`2f9b1fa`](https://github.com/shawnoster/uvws/commit/2f9b1fadcc2e1221b4e22e1f616c84b170eb8373))
+
+- **plugin-one-release**: Release plugin_one@0.4.9 [skip ci]
+  ([`a684d40`](https://github.com/shawnoster/uvws/commit/a684d40589c5bf577ad75fd02088f86744bc7e5b))
+
+- **sqa-cli-release**: Release sqa-cli@0.4.6 [skip ci]
+  ([`6e737ec`](https://github.com/shawnoster/uvws/commit/6e737ece9ad80234266cfaee5224779d8e03b65e))
+
+
 ## v0.4.6 (2025-04-13)
 
 ### Bug Fixes
