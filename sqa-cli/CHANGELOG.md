@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.8.0 (2025-04-14)
+
+### Features
+
+- **sqa-cli**: Add log_warning function for improved logging capabilities
+  ([`9de2889`](https://github.com/shawnoster/uvws/commit/9de2889776d9aff1de8fd4d6a6d8d4328c8211fe))
+
+
 ## v0.7.0 (2025-04-14)
 
 ### Bug Fixes
