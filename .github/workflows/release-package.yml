@@ -2,7 +2,7 @@ name: Reusable Release Action
 on:
   workflow_call:
     inputs:
-      directory:
+      package:
         required: true
         type: string
     secrets:
@@ -10,19 +10,28 @@ on:
         required: true
 
 jobs:
-  release:
+  release-package:
     runs-on: ubuntu-latest
+    concurrency:
+      group: ${{ github.workflow }}-release-${{ inputs.package }}-${{ github.ref_name }}
+      cancel-in-progress: false
+
+    permissions:
+      contents: write    # allow pushing tags and creating releases
+
     steps:
-      - name: Release Package
-        id: release-package
+      - name: Action | Semantic Version Release (${{ inputs.package }} package)
+        id: release_package
         uses: python-semantic-release/python-semantic-release@v9
         with:
-          directory: ${{ inputs.directory }}
+          directory: ./${{ inputs.package }}
           github_token: ${{ secrets.github_release_token }}
+          git_committer_name: "github-actions"
+          git_committer_email: "actions@users.noreply.github.com"          
 
-      - name: Publish Artifacts to GitHub Release
-        if: steps.release-package.outputs.released == 'true'
+      - name: Publish | Upload to GitHub Release Assets (${{ inputs.package }} package)
         uses: python-semantic-release/publish-action@v9.21.0
+        if: steps.release_package.outputs.released == 'true'
         with:
-          tag: ${{ steps.release-package.outputs.tag }}
+          tag: ${{ steps.release_package.outputs.tag }}
           github_token: ${{ secrets.github_release_token }}
