@@ -17,31 +17,20 @@ jobs:
         with:
           fetch-depth: 0  # fetch full history for accurate version calculations
 
-      - name: Release sqa-api
-        uses: python-semantic-release/python-semantic-release@v9
-        with:
-          root_options: "-vv"
-          directory: ./sqa-api
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+  release-sqa-api:
+    uses: ./.github/workflows/release-package.yml
+    with:
+      directory: ./sqa-api
+      github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Release sqa-cli
-        id: release-sqa-cli
-        uses: python-semantic-release/python-semantic-release@v9.21.0
-        with:
-          root_options: "-vv"
-          directory: ./sqa-cli
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+  release-sqa-cli:
+    uses: ./.github/workflows/release-package.yml
+    with:
+      directory: ./sqa-cli
+      github_token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Publish artifacts to GitHub Release
-        if: steps.release-sqa-cli.outputs.released == 'true'
-        uses: python-semantic-release/publish-action@v9.21.0
-        with:
-          tag: ${{ steps.release-sqa-cli.outputs.tag }}
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Release plugin-one plugin
-        uses: python-semantic-release/python-semantic-release@v9
-        with:
-          root_options: "-vv"
-          directory: ./plugins/plugin-one
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+  release-plugin-one:
+    uses: ./.github/workflows/release-package.yml
+    with:
+      directory: ./plugins/plugin-one
+      github_token: ${{ secrets.GITHUB_TOKEN }}

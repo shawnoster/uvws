@@ -19,7 +19,7 @@ plugin-one = "plugin_one.plugin_one_plugin:PluginOnePlugin"
 sqa-api = { workspace = true }
 
 [tool.semantic_release]
-build_command = "pip install uv && uv build -v -o ./dist"
+build_command = "pip install --root-user-action=ignore uv && uv build"
 commit_message = "chore(plugin-one-release): release plugin_one@{version} [skip ci]"
 commit_parser = "../../scripts/psr/custom_parser/monorepo_parser.py:ConventionalCommitMonorepoParser"
 tag_format = "plugin-one-v{version}"
@@ -31,4 +31,4 @@ version_variables = ["plugin_one/__init__.py:__version__"]
 match = "main"
 
 [tool.semantic_release.publish]
-dist_glob_patterns = ["../../dist/plugin_one*"]
+dist_glob_patterns = ["dist/plugin_one*.*"]
