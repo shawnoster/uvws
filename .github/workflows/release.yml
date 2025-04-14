@@ -36,6 +36,7 @@ jobs:
         if: steps.release-sqa-cli.outputs.released == 'true'
         uses: python-semantic-release/publish-action@v9.21.0
         with:
+          tag: ${{ steps.release-sqa-cli.outputs.tag }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Release plugin-one plugin
