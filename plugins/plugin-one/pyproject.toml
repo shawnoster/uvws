@@ -36,6 +36,7 @@ commit_message = "chore(plugin-one-release): release plugin_one@{version} [skip 
 # Only consider commits that affect this package's path (monorepo filtering)
 [tool.semantic_release.commit_parser_options]
 path_filters = ["plugins/plugin-one/plugin_one/**"]
+exclude_commit_patterns = ["chore"]
 
 # Branch settings: define which branches do releases
 [tool.semantic_release.branches.main]
