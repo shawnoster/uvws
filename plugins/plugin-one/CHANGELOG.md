@@ -1,17 +1,25 @@
 # CHANGELOG
 
 
+## v0.5.1 (2025-04-14)
+
+### Bug Fixes
+
+- **plugin-one**: Replace ValueError with PluginInvalidInput for missing serviceName
+  ([`194147f`](https://github.com/shawnoster/uvws/commit/194147f4027d1ed8fbdc9c7552f8f1d2f2fa3a67))
+
+### Chores
+
+- Add publish configuration for semantic release in plugin-one, sqa-api, and sqa-cli
+  ([`7acacd9`](https://github.com/shawnoster/uvws/commit/7acacd9f33f5ba9b390d8f6efae33ed88ed312d8))
+
+
 ## v0.5.0 (2025-04-14)
-
-### Features
-
-- **parser**: Implement ConventionalCommitMonorepoParser with path filtering options
-  ([`0134398`](https://github.com/shawnoster/uvws/commit/0134398dc2d12da4c08a14522ee62cd8b795a55b))
 
 ### Refactoring
 
-- **sqa-api**: Update commit message and glob patterns for consistency
-  ([`d355a71`](https://github.com/shawnoster/uvws/commit/d355a71b5a65a860f9bcf014fcf6182fdafeca00))
+- **plugin-one**: Streamline semantic release configuration and remove unused options
+  ([`67d7614`](https://github.com/shawnoster/uvws/commit/67d7614878a1c8198eb414a59625ec588a1cf84e))
 
 
 ## v0.4.12 (2025-04-14)
@@ -35,11 +43,6 @@
 
 ## v0.4.10 (2025-04-13)
 
-### Bug Fixes
-
-- **pyproject**: Remove cookiecutter-sqa-plugin from workspace exclusions
-  ([`747c9fd`](https://github.com/shawnoster/uvws/commit/747c9fd1203197d6200fc36d90390859906a68f1))
-
 
 ## v0.4.9 (2025-04-13)
 
@@ -61,11 +64,6 @@
 
 
 ## v0.4.6 (2025-04-13)
-
-### Bug Fixes
-
-- **sqa-api**: Update version to 2.0.1 in pyproject.toml and __init__.py
-  ([`8b4be51`](https://github.com/shawnoster/uvws/commit/8b4be5128bc7676b09916ad3697dd0f95218d9d6))
 
 
 ## v0.4.5 (2025-04-13)
@@ -92,6 +90,14 @@
 - **plugin-one**: Update dist_glob_patterns to include full path for package distribution
   ([`62bf8d9`](https://github.com/shawnoster/uvws/commit/62bf8d9db7e3571cd3a778f715149867bc7fcd18))
 
+### Chores
+
+- **plugin-one**: Update build command for consistency and add changelog sections
+  ([`01d228e`](https://github.com/shawnoster/uvws/commit/01d228e4d2e5f99c018208f07892c17cdb290c59))
+
+- **sqa-api, sqa-cli**: Add changelog sections for semantic release
+  ([`c6d1600`](https://github.com/shawnoster/uvws/commit/c6d160023b9635a134f0955230a18a4898380b8c))
+
 
 ## v0.4.2 (2025-04-13)
 
@@ -106,46 +112,45 @@
 - **plugin-one**: Update build command to output to dist directory
   ([`b5189f2`](https://github.com/shawnoster/uvws/commit/b5189f2327a7dee2c8eee11860930e088ed9f1e7))
 
+### Chores
+
+- **plugin-one**: Refine path filters for semantic release commit parsing
+  ([`476ab56`](https://github.com/shawnoster/uvws/commit/476ab56bb3d10088537ed3114a3276ced983d771))
+
+- **release**: Remove uv installation step and update path filters for semantic release
+  ([`445cedb`](https://github.com/shawnoster/uvws/commit/445cedb6883a78782ec7c697e8910a0c1e012a2b))
+
 
 ## v0.4.0 (2025-04-13)
 
 
 ## v0.3.0 (2025-04-13)
 
-### Features
-
-- **plugin-interface**: Add PluginInvalidInput exception for invalid input data
-  ([`cac573a`](https://github.com/shawnoster/uvws/commit/cac573a6d17681b2cbb37ba48dd106c1ee97cd30))
-
-- **sqa-api**: Add custom exception class for plugin errors
-  ([`bc0a9a1`](https://github.com/shawnoster/uvws/commit/bc0a9a1b4fcf8d7e59d9d179548755d046cdb0d9))
-
 
 ## v0.2.0 (2025-04-13)
 
-### Features
+### Chores
 
-- Add _validate_credentials method to PluginBase for credential validation
-  ([`3cfaf72`](https://github.com/shawnoster/uvws/commit/3cfaf72333d3b1b8ec8feb39b359de88b98818a0))
+- Remove outdated changelogs for plugin-one, sqa-api, and sqa-cli
+  ([`cf6fcc1`](https://github.com/shawnoster/uvws/commit/cf6fcc19e6331c9ddba8582cf6d81c70e8086e62))
 
 
 ## v0.1.2 (2025-04-13)
 
 ### Bug Fixes
 
-- Update project metadata in pyproject.toml
-  ([`d7b7e15`](https://github.com/shawnoster/uvws/commit/d7b7e15e1462c87199a42d1c44577ee906e82c89))
-
 - Update version to 2.1.1 for plugin-one and sqa
   ([`4ca715f`](https://github.com/shawnoster/uvws/commit/4ca715f1f5913c19733f7dce1854c175472fabfe))
+
+### Chores
+
+- Standardize commit message format and add dist glob patterns for plugin-one, sqa-api, and sqa-cli
+  ([`9a85a5e`](https://github.com/shawnoster/uvws/commit/9a85a5ef9e27fe4dedac7667c104d6dab0c3687f))
 
 
 ## v0.1.1 (2025-04-13)
 
 ### Bug Fixes
-
-- Correct path in version_variables for semantic release configuration
-  ([`4380f8e`](https://github.com/shawnoster/uvws/commit/4380f8e45b938dba2d9de22e9d05927a9f0a18ff))
 
 - Update tag format for plugin-one and add semantic release configuration for sqa-cli
   ([`e823ed4`](https://github.com/shawnoster/uvws/commit/e823ed4a1d01470cac19a08bc96087ca009777c7))
@@ -153,46 +158,16 @@
 - Update version numbers for plugin-one and sqa-cli to 2.0.4 and 0.3.1 respectively
   ([`b73b4e1`](https://github.com/shawnoster/uvws/commit/b73b4e1f3551075769e6d1090a6302a726ae8743))
 
-- **core**: Add dependencies for the project
-  ([`385f259`](https://github.com/shawnoster/uvws/commit/385f259d8d5da747bc112b96d2847ef7e6351d7e))
+### Chores
 
-- **core**: Change parameter type of collect and evaluate methods from dict to str
-  ([`94be3e8`](https://github.com/shawnoster/uvws/commit/94be3e8a654521112d61b0f67ab10bc1d4a87943))
+- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
+  ([`c41c87c`](https://github.com/shawnoster/uvws/commit/c41c87c57723f771b663ae832594efb6cae0275c))
 
-- **core**: Change parameter type of collect method from str to dict
-  ([`db6d88f`](https://github.com/shawnoster/uvws/commit/db6d88f8cc4be0afc6ff2b98187173dd8c236537))
+- **plugin_one-release**: Release plugin_one@0.1.0 [skip ci]
+  ([`c6a3caf`](https://github.com/shawnoster/uvws/commit/c6a3caf0dd5a2299b91d2c74c74d72b597f70c56))
 
-- **core**: Change parameter type of evaluate method from str to dict
-  ([`aa73ad0`](https://github.com/shawnoster/uvws/commit/aa73ad0a8b93a0bfe8a7c8a72bc7e5d3e51ba659))
-
-- **core**: Change return type of collect method from dict to str
-  ([`529442f`](https://github.com/shawnoster/uvws/commit/529442f597575bd216316bf1f2c2cbe6239e8570))
-
-- **core**: Update core package version to 0.2.3 and add rich dependency
-  ([`6ffd791`](https://github.com/shawnoster/uvws/commit/6ffd7915280a3234f20f42357973a96475f07cc3))
-
-- **svc1**: Add missing key check for input data in collect method
-  ([`1c07748`](https://github.com/shawnoster/uvws/commit/1c07748d652271a2caefea088126c95019bb0bce))
-
-- **svc1**: Improve error message for missing key in input data
-  ([`a41803c`](https://github.com/shawnoster/uvws/commit/a41803cd01ffeffdf0254dec5d162206faeff345))
-
-- **svc1**: Update semantic release configuration and version to 0.3.1
-  ([`4a8f894`](https://github.com/shawnoster/uvws/commit/4a8f894edf3f8566da7abb42cbf05a7a7eeef168))
-
-- **svc1**: Update version to 0.1.0 in __init__.py
-  ([`0590a5b`](https://github.com/shawnoster/uvws/commit/0590a5b79d5e6ab7e71375c9844274029b87ea0b))
-
-### Features
-
-- **core**: Add PluginBase abstract class for plugin development
-  ([`94d6203`](https://github.com/shawnoster/uvws/commit/94d6203af51f84b6ffaa414692cba7d8ede3b3f6))
-
-- **core**: Implement Svc1Plugin with collect and evaluate methods
-  ([`91858f5`](https://github.com/shawnoster/uvws/commit/91858f5d949c750e0371edba8fa6439c3a7639a0))
-
-- **core**: Update PluginBase class to require evaluate method implementation
-  ([`a6077a4`](https://github.com/shawnoster/uvws/commit/a6077a47bbfd9587b700a4ca1da2c99d0e79862a))
+- **plugin_one-release**: Release plugin_one@0.1.1 [skip ci]
+  ([`26d295d`](https://github.com/shawnoster/uvws/commit/26d295df50a403e2a802cebd85646c7aff87f54c))
 
 ### Refactoring
 
