@@ -14,7 +14,7 @@ dependencies = []
 dev = []
 
 [tool.semantic_release]
-build_command = "pip install uv && uv build"
+build_command = "pip install --root-user-action=ignore uv && uv build"
 commit_message = "chore(sqa-api-release): release sqa-api@{version} [skip ci]"
 commit_parser = "../scripts/psr/custom_parser/monorepo_parser.py:ConventionalCommitMonorepoParser"
 dist_glob_patterns = ["./dist/*.whl", "./dist/*.tar.gz"]
@@ -26,4 +26,4 @@ version_variables = ["sqa_api/__init__.py:__version__"]
 match = "main"
 
 [tool.semantic_release.publish]
-dist_glob_patterns = ["../dist/sqa_api*"]
+dist_glob_patterns = ["dist/sqa_api*.*"]
