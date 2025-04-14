@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.9.2 (2025-04-14)
+
+### Bug Fixes
+
+- **sqa-cli**: Add log_debug function for improved logging capabilities
+  ([`ded3671`](https://github.com/shawnoster/uvws/commit/ded3671ad1f2f71d1b17775aa9b0871b1ba0271d))
+
+
 ## v0.9.1 (2025-04-14)
 
 ### Bug Fixes
