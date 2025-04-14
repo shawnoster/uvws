@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.4.10 (2025-04-13)
+
+### Bug Fixes
+
+- **pyproject**: Remove cookiecutter-sqa-plugin from workspace exclusions
+  ([`747c9fd`](https://github.com/shawnoster/uvws/commit/747c9fd1203197d6200fc36d90390859906a68f1))
+
+
 ## v0.4.9 (2025-04-13)
 
 ### Bug Fixes
