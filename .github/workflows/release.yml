@@ -22,18 +22,18 @@ jobs:
     with:
       directory: ./sqa-api
     secrets:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
+      github_release_token: ${{ secrets.GITHUB_TOKEN }}
 
   release-sqa-cli:
     uses: ./.github/workflows/release-package.yml
     with:
       directory: ./sqa-cli
     secrets:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
+      github_release_token: ${{ secrets.GITHUB_TOKEN }}
 
   release-plugin-one:
     uses: ./.github/workflows/release-package.yml
     with:
       directory: ./plugins/plugin-one
     secrets:
-      github_token: ${{ secrets.GITHUB_TOKEN }}
+      github_release_token: ${{ secrets.GITHUB_TOKEN }}

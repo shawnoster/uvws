@@ -6,7 +6,7 @@ on:
         required: true
         type: string
     secrets:
-      github_token:
+      github_release_token:
         required: true
 
 jobs:
@@ -18,11 +18,11 @@ jobs:
         uses: python-semantic-release/python-semantic-release@v9
         with:
           directory: ${{ inputs.directory }}
-          github_token: ${{ secrets.github_token }}
+          github_token: ${{ secrets.github_release_token }}
 
       - name: Publish Artifacts to GitHub Release
         if: steps.release-package.outputs.released == 'true'
         uses: python-semantic-release/publish-action@v9.21.0
         with:
           tag: ${{ steps.release-package.outputs.tag }}
-          github_token: ${{ secrets.github_token }}
+          github_token: ${{ secrets.github_release_token }}
