@@ -17,3 +17,8 @@ def log_error(message: str) -> None:
     import logging
     logger = logging.getLogger(__name__)
     logger.error(message)
+
+def log_warning(message: str) -> None:
+    import logging
+    logger = logging.getLogger(__name__)
+    logger.warning(message)
