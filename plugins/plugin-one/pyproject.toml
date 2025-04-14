@@ -19,44 +19,13 @@ plugin-one = "plugin_one.plugin_one_plugin:PluginOnePlugin"
 sqa-api = { workspace = true }
 
 [tool.semantic_release]
-# Command to build the package (using uv for consistency)
 build_command = "pip install uv && uv build -v -o ./dist"
-
-# Git tag format for this package (ensures independent tags)
+commit_message = "chore(plugin-one-release): release plugin_one@{version} [skip ci]"
+commit_parser = "../../scripts/psr/custom_parser/monorepo_parser.py:ConventionalCommitMonorepoParser"
 tag_format = "plugin-one-v{version}"
-
-# Locations of the version string to update
 version_toml = ["pyproject.toml:project.version"]
 version_variables = ["plugin_one/__init__.py:__version__"]
-
-# Customize the commit message that PSR uses when it commits the bump
-commit_parser = "conventional"
-commit_message = "chore(plugin-one-release): release plugin_one@{version} [skip ci]"
-
-# Only consider commits that affect this package's path (monorepo filtering)
-[tool.semantic_release.commit_parser_options]
-exclude_commit_patterns = ["chores*"]
 
 # Branch settings: define which branches do releases
 [tool.semantic_release.branches.main]
 match = "main"
-
-[tool.semantic_release.publish]
-dist_glob_patterns = [
-    "dist/*.whl",
-    "dist/*.tar.gz"
-]
-
-[tool.semantic_release.changelog]
-exclude_commit_patterns = [
-  "chores*"
-]
-changelog_sections = [
-  "feat",
-  "fix",
-  "perf",
-  "refactor"
-]
-
-[tool.semantic_release.remote.token]
-env = "GITHUB_TOKEN"
