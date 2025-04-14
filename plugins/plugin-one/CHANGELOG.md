@@ -1,6 +1,14 @@
 # CHANGELOG
 
 
+## v0.4.7 (2025-04-13)
+
+### Bug Fixes
+
+- **plugin-one**: Correct return value in evaluate method to match expected output
+  ([`bb3c734`](https://github.com/shawnoster/uvws/commit/bb3c7342c0e69082ff35061a6181fc27415d4499))
+
+
 ## v0.4.6 (2025-04-13)
 
 ### Bug Fixes
