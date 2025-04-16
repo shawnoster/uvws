@@ -96,3 +96,10 @@ class PluginBase(ABC):
         """
         # Placeholder for validation logic
         return True
+    
+    def _validate_output(self, output: dict) -> bool:
+        """
+        Validate the output data.
+        """
+        # Placeholder for validation logic
+        return True
